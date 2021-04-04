@@ -1,0 +1,11 @@
+.triangle{
+    
+    width: 0;
+    height: 0;
+    border-left: 800px solid transparent;
+    border-right: 800px solid transparent;
+    /* border-bottom: 350px solid  #FFF8F0; */
+    border-bottom: 150px solid  #FFF8F0;
+    display: inline;
+    
+}

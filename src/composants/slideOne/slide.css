@@ -1,0 +1,64 @@
+.SlideContainer{
+    width: 80%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.partOne{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.partTwo{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.titlePartOne{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 59px;
+}
+.PartOnetEXT{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+.Btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.Start{
+    background-color:  #FFFFFF;
+    color:black;
+    height: 64px;
+    width: 310px;
+    left: 1407px;
+    top: 58px;
+    border-radius: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.Learn{
+    background-color: transparent;
+    border:solid;
+    border-width: 1px;
+    color:black;
+    height: 64px;
+    width: 310px;
+    left: 1407px;
+    top: 58px;
+    border-radius: 30px;
+    margin-left: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}

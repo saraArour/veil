@@ -1,0 +1,88 @@
+.SectionOneContainer{
+    width: 80vw;
+    height: 60vh;
+    /* display: grid;
+    place-items:center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titleSectionOne{
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 59px;
+}
+.steps-container{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+   
+}
+
+
+.stepOneImages{
+   width: 50%;
+    display: flex;
+    align-items: center;
+}
+.shape{
+    display: flex;
+    flex-direction: column;
+}
+.IMAGEMom{
+    position:relative;
+    right: 290px;;
+    z-index: 1; 
+}
+.IMAGEbABY{
+    position:relative;
+    top:30px;
+    right:750px ;
+    z-index: 2;
+}
+.stepOneContent{
+   width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.StepOne{
+flex:1;
+/* emmet */
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 24px;
+margin-bottom: 30px;
+color: #92140C;
+}
+.titleStepOne{
+flex:1;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 37px;
+color: #FFCF99;
+margin-bottom: 30px;
+}
+.StepOneText{
+flex:1;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: flex-end;
+margin-bottom: 30px;
+color: #000000;
+
+}
